@@ -1,0 +1,140 @@
+@media (max-width: 551px){
+    #welcome-section{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+}
+
+@media (max-width: 833px){
+    #welcome-section{
+        text-align: center;
+    }
+}
+
+
+
+body{
+    font-family: monospace;
+    background-color: rgb(70, 70, 133);
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1E2035;
+    z-index: 10;
+    box-shadow: 0px 5px 11px 7px black;
+    
+    
+}
+
+#navbar a{
+    color: white;
+    margin: 0px 15px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+#navbar a:hover{
+    color: #9aa1ec;
+    transition: 0.2s;
+    
+}
+
+#welcome-section{
+    position: relative;
+    background-image: url(https://images.pexels.com/photos/3262249/pexels-photo-3262249.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: aliceblue;
+    text-shadow: 0px 0px 16px black;;
+    background-color: rgb(69, 144, 146);
+    height: 100vh;
+
+}
+
+#projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: radial-gradient(#090E24,#061866);
+    color: white;
+    text-shadow: 1px 6px 7px black;
+    box-shadow: inset -1px 3px 20px 2px black;
+}
+
+
+#projects h1{
+    font-size: 3em;
+}
+
+.project-tile{
+    margin: 50px 0px;
+}
+
+.project-tile a{
+    color: white;
+    background-color: #373788;
+    padding: 20px 20vw;
+    border: 2px solid black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.project-tile a:hover{
+    background-color: #1E2035;
+    transition: 0.2s;
+    
+}
+
+#message{
+    font-size: 3em;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+    
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(30, 32, 53);
+    padding: 30px;
+    
+}
+
+footer h1{
+    color: white;
+}
+
+footer i{
+    color: white;
+    font-size: 2.7em;
+    margin: 0px 35px;
+}
+
+i:hover{
+   color: cadetblue;
+}
+
+ 

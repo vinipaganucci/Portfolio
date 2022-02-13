@@ -1,22 +1,4 @@
-@media (max-width: 551px){
-    #welcome-section{
-        font-size: 10px;
-        text-align: center;
-    }
 
-    #navbar {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        
-    }
-}
-
-@media (max-width: 833px){
-    #welcome-section{
-        text-align: center;
-    }
-}
 
 
 
@@ -51,7 +33,7 @@ body{
 
 #navbar a:hover{
     color: #9aa1ec;
-    transition: 0.2s;
+    
     
 }
 
@@ -137,4 +119,36 @@ i:hover{
    color: cadetblue;
 }
 
- 
+
+
+
+@media (max-width: 833px){
+    #welcome-section{
+        text-align: center;
+        background-attachment: local;
+    }
+
+    
+}
+
+@media (max-width: 551px){
+    #welcome-section{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+}
+
+@media (max-width: 500px){
+    #welcome-section{
+        background-image: url(sky.jpeg);
+        
+     
+    }
+}

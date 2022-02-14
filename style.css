@@ -12,7 +12,7 @@ body{
 #navbar{
     
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     position: fixed;
     top: 0;
     left: 0;
@@ -20,6 +20,7 @@ body{
     background-color: #1E2035;
     z-index: 10;
     box-shadow: 0px 5px 11px 7px black;
+    padding: 15px;
     
     
 }
@@ -50,6 +51,16 @@ body{
 
 }
 
+#About{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+    padding: 80px;
+    box-shadow: inset -1px 3px 20px 2px black;
+}
+
 #projects{
     display: flex;
     flex-direction: column;
@@ -57,7 +68,7 @@ body{
     background-image: radial-gradient(#090E24,#061866);
     color: white;
     text-shadow: 1px 6px 7px black;
-    box-shadow: inset -1px 3px 20px 2px black;
+    
 }
 
 
@@ -139,9 +150,13 @@ i:hover{
 
     #navbar {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row;
+        justify-content: space-evenly;
         
+    }
+
+    #About{
+        font-size: 1.4em;
     }
 }
 

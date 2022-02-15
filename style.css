@@ -82,7 +82,7 @@ body{
     background-position: center center;
     background-attachment: fixed;
 
-    text-shadow: 0px 0px 6px black;
+    text-shadow: -6px -1px 4px black;
 
     
 
@@ -101,7 +101,7 @@ body{
     background-attachment: fixed;
     background-position: center center;
     color: white;
-    text-shadow: 1px 6px 7px black;
+    text-shadow: -6px -1px 4px black;
     
 }
 

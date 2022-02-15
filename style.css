@@ -35,14 +35,14 @@ body{
 }
 
 #navbar a:hover{
-    color: #9aa1ec;
+    color: rgb(255, 244, 92);
     
     
 }
 
 #welcome-section{
     position: relative;
-    background-image: url(https://images.pexels.com/photos/5827881/pexels-photo-5827881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-image: url(https://images.pexels.com/photos/1585893/pexels-photo-1585893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -84,6 +84,7 @@ body{
 
     text-shadow: 0px 0px 6px black;
 
+    
 
 }
 
@@ -121,7 +122,7 @@ body{
     flex-direction: column;
     align-items: center;
 
-    background-color: #0000002a;
+    background-color: #000000;
 
     
     border: 2px solid black;
@@ -140,7 +141,7 @@ img{
 }
 
 .project-tile a:hover{
-   color: #9ca4ff;
+   color: rgb(255, 244, 92);
     transition: 0.2s;
     
 }
@@ -171,7 +172,7 @@ footer i{
 }
 
 i:hover{
-   color: cadetblue;
+   color: rgb(255, 244, 92);
 }
 
 

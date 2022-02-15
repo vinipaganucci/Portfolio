@@ -22,7 +22,7 @@ body{
     z-index: 10;
     box-shadow: 0px 0px 9px 0px black;
     padding: 15px;
-    background-color: #C9830D;
+    background-color: #C35220;
     
     
 }
@@ -35,7 +35,7 @@ body{
 }
 
 #navbar a:hover{
-    color: rgb(255, 244, 92);
+    color: #ffc7ae;
     
     
 }
@@ -77,7 +77,7 @@ body{
     padding: 80px;
     box-shadow: inset -1px 3px 20px 2px black;
 
-    background-image: url(https://images.pexels.com/photos/68562/pexels-photo-68562.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-image: url(https://images.pexels.com/photos/267586/pexels-photo-267586.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -96,7 +96,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(https://images.pexels.com/photos/109371/pexels-photo-109371.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-image: url(https://images.pexels.com/photos/5477785/pexels-photo-5477785.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -141,7 +141,7 @@ img{
 }
 
 .project-tile a:hover{
-   color: rgb(255, 244, 92);
+   color: #ffc7ae;
     transition: 0.2s;
     
 }
@@ -156,7 +156,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: #C9830D;
+    background-color: #C35220;
     padding: 30px;
     
 }
@@ -172,7 +172,7 @@ footer i{
 }
 
 i:hover{
-   color: rgb(255, 244, 92);
+   color: #ffc7ae;
 }
 
 

@@ -26,6 +26,7 @@ body{
     margin: 0;
     
     
+    
 }
 
 #navbar a{
@@ -165,10 +166,10 @@ img{
 
 footer{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background-color: #C35220;
-    padding: 30px;
+    padding-top: 20px;
     
 }
 
@@ -180,11 +181,27 @@ footer i{
     color: white;
     font-size: 2.7em;
     margin: 0px 35px;
+    
 }
+
+footer p{
+    font-size: 1.5em;
+    color: white;
+    
+}
+
+span{
+    font-size: 1.5em;
+}
+
+
+
+
 
 i:hover{
    color: #ffc7ae;
 }
+
 
 
 

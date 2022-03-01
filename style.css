@@ -103,6 +103,7 @@ body{
 #projects{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-image: url(https://images.pexels.com/photos/5477785/pexels-photo-5477785.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-size: cover;
@@ -128,6 +129,7 @@ body{
 .project-tile{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 
     background-color: #000000;
@@ -140,9 +142,12 @@ body{
     font-size: 2em;
     text-decoration: none;
     transition: 0.5s;
-    margin: 50px 0px;
-    padding: 20px;
+    width: 250px;
+    height: 100px;
     text-shadow: 4px 2px 0px black;
+
+    margin: 50px;
+    padding: 3px;
     
     
 }
@@ -154,7 +159,7 @@ img{
 }
 
 .project-tile a:hover{
-   color: #ffc7ae;
+   color: #ffcb3c;
     transition: 0.2s;
     
 }
@@ -200,7 +205,7 @@ span{
 
 
 i:hover{
-   color: #ffc7ae;
+   color: #ffcb3c;
 }
 
 

@@ -3,7 +3,7 @@ function relogio() {
     let hor = date.getHours()
     let min = date.getMinutes()
     let sec = date.getSeconds()
-    let horas = `${hor}:${min}:${sec}`
+    
 
     if(hor < 10) {
         hor = '0' + hor
@@ -17,7 +17,8 @@ function relogio() {
     if(sec < 10) {
         sec = '0' + sec
     }
-
+    
+    let horas = `${hor}:${min}:${sec}`
     document.getElementById('rel').value = horas
     
 }

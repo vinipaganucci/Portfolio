@@ -45,7 +45,7 @@ function relogio() {
 
 function mudarImg() {
     let bckImg = document.getElementById('welcome-section')
-    if(hor >= 5) {
+    if(hor >= 1) {
         bckImg.style.backgroundImage = 'url("https://images.pexels.com/photos/414144/pexels-photo-414144.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")'
 
     }

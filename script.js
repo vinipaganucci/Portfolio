@@ -12,7 +12,6 @@ let pj = document.getElementById('projects')
 let pjtl = document.getElementsByClassName('project-tile')
     
 
-
 function relogio() {
     let date = new Date();
     let hor = date.getHours()

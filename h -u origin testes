@@ -1,0 +1,13 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex f49eb22..8da57fd 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -28,7 +28,7 @@[m
+     <section id="About">[m
+         <h2>Sobre mim</h2>[m
+         <p>[m
+[31m-            Estudante de Análise e Desenvolvimento de Sistemas, apaixonado por tecnologia e inovação. Atualmente atuo na área de projetos de software, com foco no desenvolvimento de aplicações web que integram front-end e back-end. Possuo competências em HTML, CSS e JavaScript, além de experiência na manipulação de interfaces dinâmicas e no consumo de APIs externas por meio de requisições fetch. Também tenho prática na organização de fluxos de interação, uso de persistência de dados no navegador e na criação de soluções que conectam de forma eficiente a experiência do usuário às funcionalidades do sistema.[m
+[32m+[m[32m            Estudante de Análise e Desenvolvimento de Sistemas, apaixonado por tecnologia e inovação. Atualmente atuo na área de projetos de software, com foco no desenvolvimento de aplicações web que integram front-end e back-end. Possuo competências em HTML, CSS e JavaScript, além de experiência na manipulação de interfaces dinâmicas e no consumo de APIs externas por meio de requisições fetch. Também tenho prática na organização de fluxos de interação e na criação de soluções que conectam de forma eficiente a experiência do usuário às funcionalidades do sistema.[m
+             Busco constantemente evoluir minhas habilidades técnicas.[m
+         </p>[m
+ [m
